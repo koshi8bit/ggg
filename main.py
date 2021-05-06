@@ -15,4 +15,5 @@ def i_am_alive2():
 
 if __name__ == '__main__':
     # app.run(debug=True, port=8080)
-    app.run(debug=True, port=80)
+    # app.run(debug=True, port=80)
+    app.run(host='0.0.0.0', port=80)
